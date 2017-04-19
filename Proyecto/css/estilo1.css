@@ -1,4 +1,4 @@
-ul.MyMenu {
+	ul.MyMenu {
 		font-size: 0px; /* Sin espacio entre opciones */
    }
 	ul.MyMenu li{ /* Establece tamaño letra */
@@ -29,11 +29,10 @@ ul.MyMenu {
 		background: black;
         box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.37);
         font-family: "Comic Sans MS", cursive, sans-serif;
-
 	}
 
 	/*MENU NORMAL*/
-	ul.MyMenu li a, form {
+	ul.MyMenu li a {
 		text-decoration: none;
 		padding: 4.5px 18.5px 4.5px 12.5px;
 		color: white;
@@ -67,4 +66,64 @@ ul.MyMenu {
 	}
 	.col-md-12{
 		background-color: black;
+	}
+	
+	#fondo{
+		background-color: WhiteSmoke;
+	}
+	
+	h4{
+		background-color: WhiteSmoke;
+	}
+	
+	#Negrita{
+		font-size: 20px;
+	}
+	
+	#contactenos{
+		background-color: #cc9900;
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+	}
+	#claro{
+		background-color: #ffffe6;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	
+	.tableVuelos{
+		padding-left:10%;
+		padding-top:2%;
+		padding-bottom:2%;
+		font-size: 20px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	
+	table.grid{ background: #ffffe6}	
+	table.grid{border:1px ; border-collapse: collapse;}
+	table.grid thead tr {background:#cc9900}
+	table.grid thead tr th{ background:  #cc9900; border:inherit; text-align: center;}
+	table.grid tfoot tr {background:#ffffe6}
+	table.grid tfoot tr td{ background:  #ffffe6; border:inherit; text-align: center;}
+	table.grid tbody tr{ background: #99ff99;}
+	table.grid tbody tr:nth-child(odd) {background: #ffffe6;}
+	table.grid tbody tr:nth-child(even) {background: #ffffe6;}
+	table.grid tbody tr td{border:inherit;}
+
+	.boton{
+		border: 2px solid #0066ff;
+		border-radius: 10px;
+		background-color: #0066ff;
+		color:white;
+	}
+			
+	.sign{
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+		background-color: #cc9900;
+	}
+	
+	.formulario{
+		font-size: 20px;
 	}
