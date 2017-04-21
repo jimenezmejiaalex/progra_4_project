@@ -9,7 +9,7 @@
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="js/script.js" type="text/javascript"></script>
     </head>
-    <body>
+    <body class="pagina">
 	
 		<!------------------------------- ENCABEZADO ------------------------------->
 		
@@ -42,10 +42,10 @@
         <!------------------------------- TERMINA NAVEGACION ------------------------------->
     
 	<!------------------------------- CUERPO ------------------------------->
-    <div class="container cuerpo" id="claro" >
+        <div class="container cuerpo" id="claro" >
 		<div class="sign">Sign Up</div>
         <form class="formulario" method="POST" name="formulario" id="formulario" action="javascript:doSubmit();">
-            <table>
+            <table class="grid">
                 <tbody> 
 					<tr> <td>&nbsp;&nbsp;</td> </tr>
                     <tr> <td class="etiqueta"> Usuario: </td> <td> <input  type="text" id="usuario"></td>   </tr>
@@ -64,7 +64,7 @@
 					<tr> <td>&nbsp;&nbsp;</td> </tr>
                     <tr> <td class="etiqueta"> Fecha de nacimiento: </td> <td> <input  type="text" id="fechaNacimiento"></td>   </tr>
 					<tr> <td>&nbsp;&nbsp;</td> </tr>
-              
+                    <tr> <td><input type="submit" class="boton" value="Registrar"> </td> </tr>
                 </tbody>
             </table>
         </form>

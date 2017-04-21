@@ -85,10 +85,12 @@
 		font-size: 20px;
 		font-weight: bold;
 		text-align:center;
+		background-image: url(../fonts/fondo3.png); border-radius: 10px; 
 	}
 	#claro{
 		background-color: #ffffe6;
 		font-family: "Comic Sans MS", cursive, sans-serif;
+		background-image: url(../fonts/fondo1.png); border-radius: 10px; 
 	}
 	.pagina{
 		background-image:url(../fonts/fondo2.png);
@@ -126,6 +128,7 @@
 		border-radius: 10px;
 		background-color: #0066ff;
 		color:white;
+		text-align:center;
 	}
 			
 	.sign{
@@ -133,6 +136,7 @@
 		font-weight: bold;
 		text-align:center;
 		background-color: #cc9900;
+		background-image: url(../fonts/fondo3.png); border-radius: 10px;
 	}
 	
 	.formulario{
