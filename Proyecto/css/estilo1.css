@@ -134,9 +134,46 @@
 		font-size: 20px;
 	}
 	
+<<<<<<< HEAD
 	.oneWorld{
 		width:30%;
 		height:30%;
 		float:right;
 	}
 	
+=======
+	.overlay{
+		display: none; 
+		position: absolute;
+		top: 0%;  left: 0%; 
+		width: 100%;  height: 100%;
+		background-color: lightgray;
+		z-index:1; opacity:.70;
+}
+	.popup{
+		display: none; position: absolute;
+		top: 10%; left: 25%; 
+		width: 50%; height: 50%;
+		padding: 5px;
+		border: 5px solid lightgray;
+		z-index:2; 
+		background:#cc9900; 
+		background-image: url(../fonts/fondo3.png); border-radius: 10px;
+}
+	.inicioSesion{
+		margin-left:10%;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 20px;
+	}
+	.inicioSesion1{
+		
+		text-align:center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 20px;
+	}
+	.inicioSesion2{
+		margin-left:10%;	
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 20px;
+	}
+>>>>>>> refs/remotes/origin/Quinto-Avance-5.0
