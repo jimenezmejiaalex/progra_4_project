@@ -19,7 +19,7 @@
 </head>
 
 <body class="pagina">
-
+	
 	<!------------------------------- ENCABEZADO ------------------------------->
 
 	<div class="container-fluid">
@@ -59,7 +59,8 @@
 			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 			<li>
-				<a href="Login.html" title="Login">
+				<a title="Login" onclick="document.getElementById('o').style.display='block';
+												  document.getElementById('p').style.display='block';">
 					<image src="" border="0">Log in</a>
 			</li>
 			<li>
@@ -70,6 +71,17 @@
 	</div>
 
 	<!------------------------------- TERMINA NAVEGACION ------------------------------->
+	<!-------------------------------Inicio Sesión-------------------------------------->
+	
+	<div id="o" class="overlay"> </div>
+	<div id="p" class="popup">
+		<p class="inicioSesion1"> Inicio de sesión 	</p>
+		<p class="inicioSesion"> Usuario: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="inicioUsuario" class="inicioSesion2"> </p>
+		<p class="inicioSesion"> Contraseña: <input type="password" id="inicioContraseña" class="inicioSesion2"> </p>
+		<p class="inicioSesion1"> <input type="button" class="inicioSesion1" id="btnInicio" value="Sign in" onclick="document.getElementById('o').style.display='none';
+																							  document.getElementById('p').style.display='none';">
+		</p>
+	</div>
 
 	<!-------------------------------BUSCAR VUELOS----------------------------------------->
 
@@ -101,6 +113,7 @@
 					<tr>
 						<td>&nbsp;</td>
 					</tr>
+
 					<tr>
 						<td>&nbsp; ¿Fechas?</td>
 					</tr>
