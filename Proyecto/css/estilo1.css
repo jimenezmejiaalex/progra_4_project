@@ -22,21 +22,13 @@
 		display: inline-block;
 		vertical-align:top;
 	}
-	#search{
-		text-decoration: none;
-		padding: 2px 16px 2px 10px;
-		color: white;
-		background: black;
-        box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.37);
-        font-family: "Comic Sans MS", cursive, sans-serif;
-	}
 
 	/*MENU NORMAL*/
 	ul.MyMenu li a {
 		text-decoration: none;
 		padding: 4.5px 18.5px 4.5px 12.5px;
 		color: white;
-		background: black;
+		background: #993333;
 		display: block;
         box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.37);
         font-family: "Comic Sans MS", cursive, sans-serif;
@@ -44,36 +36,34 @@
 	ul.MyMenu li a:hover{
 		background: grey;
 	}
-	.image{
-		display:block;margin:0 auto 0 auto;
-	}
 	.container_pie{
-		background-color:black;
-		
-	}
-	.container_pie div p{
-		background-color:black;
+		background-color:#cc6600;
 		color: white;
 		
 	}
+	#pie{
+		background-color:grey;
+	}
 	.image{
-		width:100%;
-		height:100px;
-		background-color: black;
+		display:block;margin:0 auto 0 auto;
+		width:34%;
+		height:34%;
+		padding-left:2.5%;
+	}
+	.image1{
+		display:block;margin:0 auto 0 auto;
+		width:22%;
+		height:22%;
+		padding-left:9.2%;
 	}
 	.menuP{
-		background-color: black;
+		padding-left:10%;
+	}
+	.container-fluid{
+		background-image:url(../fonts/sky.jpg);
 	}
 	.col-md-12{
-		background-color: black;
-	}
-	
-	#fondo{
-		background-color: WhiteSmoke;
-	}
-	
-	h4{
-		background-color: WhiteSmoke;
+		background-image:url(../fonts/sky.jpg);
 	}
 	
 	#Negrita{
@@ -99,7 +89,7 @@
 	
 	
 	.tableVuelos{
-		padding-left:10%;
+		padding-left:20%;
 		padding-top:2%;
 		padding-bottom:2%;
 		font-size: 20px;
@@ -136,9 +126,17 @@
 		font-weight: bold;
 		text-align:center;
 		background-color: #cc9900;
-		background-image: url(../fonts/fondo3.png); border-radius: 10px;
+		background-image: url(../fonts/fondo3.png); 
+		border-radius: 10px;
 	}
 	
 	.formulario{
 		font-size: 20px;
 	}
+	
+	.oneWorld{
+		width:30%;
+		height:30%;
+		float:right;
+	}
+	
